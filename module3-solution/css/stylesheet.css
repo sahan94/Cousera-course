@@ -1,0 +1,63 @@
+/*navigation header*/
+
+#Head-navbar {
+	background-color: #6c757d ;
+}
+
+nav ul{
+	font-size: 3.5vw;
+	font-family: 'Ranchers', cursive;
+}
+
+#Head-navbar .navbar-brand{
+	font-size: 32px;
+	text-shadow: 1px 1px 1px #343a40;
+	color: #cccccc;
+}
+
+#Head-navbar button:hover {
+ box-shadow: 0 0 2px 1px #cccccc;
+
+}
+
+.nav-link:hover, .nav-link:focus{
+	background-color: #343a40;
+}
+/*end navigation header*/
+
+/*body*/
+
+#Menu-title{
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	font-size: 2.5em;
+}
+
+#chicken, #beef, #sushi{
+	border: 5px white solid;
+	background-color: #d7dbdd;
+	padding-bottom: 10px;
+}
+
+#chicken h3, #beef h3, #sushi h3{
+	font-family: 'Ranchers', cursive;	
+	margin-top: 10px;
+}
+
+.Back{
+	color: #6c757d;
+}
+.Back:hover{
+	text-decoration :none;
+	color: blue;
+}
+/*end of body*/
+
+/*media quary*/
+/*below large device*/
+@media(max-width:992px ) and (min-width: 576px){
+	#chicken, #beef, #sushi{
+	height: 1000px;
+	overflow-y: scroll;	
+	}
+}
