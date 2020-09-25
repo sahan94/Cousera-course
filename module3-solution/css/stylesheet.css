@@ -47,9 +47,15 @@ nav ul{
 .Back{
 	color: #6c757d;
 }
-.Back:hover{
+
+.Back:hover .Back:focus{
 	text-decoration :none;
 	color: blue;
+}
+
+.Back:visited{
+	text-decoration :none;
+	color: none;
 }
 /*end of body*/
 
